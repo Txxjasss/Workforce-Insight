@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" fill="none" role="img" aria-label="Workforce Insight — Predictive Analytics for Employee Attrition Using ML">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c6cf0"/>
+      <stop offset="1" stop-color="#5b8cff"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#23232f"/>
+      <stop offset="1" stop-color="#0d0d14"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#d2d8ff"/>
+      <stop offset="1" stop-color="#b9b2ff"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.16" cy="0.0" r="0.9">
+      <stop offset="0" stop-color="#7c6cf0" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#7c6cf0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.95" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#5b8cff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#5b8cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- panel -->
+  <rect x="6" y="6" width="1088" height="288" rx="30" fill="#08080c"/>
+  <rect x="6" y="6" width="1088" height="288" rx="30" fill="url(#glowA)"/>
+  <rect x="6" y="6" width="1088" height="288" rx="30" fill="url(#glowB)"/>
+  <rect x="6.5" y="6.5" width="1087" height="287" rx="29.5" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <!-- logo tile -->
+  <g transform="translate(72,92)">
+    <rect width="116" height="116" rx="28" fill="url(#tile)" stroke="#ffffff" stroke-opacity="0.13"/>
+    <g transform="translate(24,24) scale(2.85)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.1">
+      <path d="M3 3v18h18" stroke="#56566a"/>
+      <path d="m7 14 3-4 3 2 4-6" stroke="url(#acc)"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="222" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" letter-spacing="-1.6" fill="url(#word)">Workforce Insight</text>
+
+  <!-- subtitle -->
+  <text x="224" y="172" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#aeb6c9">Predictive Analytics for Employee Attrition Using ML</text>
+
+  <!-- tech strip -->
+  <text x="225" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" letter-spacing="2.4" fill="#7e7e92">CLASSICAL ML &#160;·&#160; PYTORCH MLP &#160;·&#160; MLFLOW &#160;·&#160; FLASK</text>
+</svg>

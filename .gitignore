@@ -1,0 +1,15 @@
+/Employee_Attrition_Prediction.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# MLflow experiment tracking
+mlflow.db
+mlruns/
+
+# Tests
+.pytest_cache/
+

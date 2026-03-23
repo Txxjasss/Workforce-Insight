@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workforce Insight — Predictive Analytics for Employee Attrition</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <a class="brand" href="/">
+      <span class="logo">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 3-4 3 2 4-6"/></svg>
+      </span>
+      <span class="name">Workforce Insight<small>Predictive Attrition Analytics</small></span>
+    </a>
+    <div class="nav-links">
+      <a class="btn btn-ghost btn-sm" href="/metrics">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><rect x="7" y="10" width="3" height="7" rx="1"/><rect x="13" y="6" width="3" height="11" rx="1"/></svg>
+        Metrics
+      </a>
+      <a class="btn btn-primary btn-sm" href="/predictor">
+        Launch Predictor
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="container hero">
+    <span class="eyebrow">
+      <svg class="icon" style="width:15px;height:15px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4"/><path d="m16.2 7.8 2.9-2.9"/><path d="M18 12h4"/><circle cx="12" cy="12" r="4"/></svg>
+      Machine Learning · Random Forest · Explainable AI
+    </span>
+    <h1>Workforce <span class="gradient-text">Insight</span></h1>
+    <p class="subtitle">Predictive Analytics for Employee Attrition Using ML</p>
+    <p class="tagline">Anticipate flight risk before it becomes resignation. Turn HR data into clear, explainable retention intelligence — and act while it still matters.</p>
+    <div class="cta">
+      <a class="btn btn-primary" href="/predictor">
+        Launch Predictor
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+      <a class="btn btn-ghost" href="#how">
+        How it works
+      </a>
+    </div>
+  </header>
+
+  <!-- STATS -->
+  <section class="container">
+    <div class="stats">
+      <div class="glass stat"><div class="num">84%</div><div class="lbl">Model accuracy</div></div>
+      <div class="glass stat"><div class="num">0.78</div><div class="lbl">ROC AUC score</div></div>
+      <div class="glass stat"><div class="num">49</div><div class="lbl">Engineered features</div></div>
+      <div class="glass stat"><div class="num">1,470</div><div class="lbl">Employees analyzed</div></div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="container">
+    <div class="section-head">
+      <h2>Intelligence, not just a score</h2>
+      <p>Every prediction comes with the reasoning behind it and the levers to change it.</p>
+    </div>
+    <div class="features">
+      <div class="glass feature">
+        <div class="fi"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></svg></div>
+        <h3>Predictive Scoring</h3>
+        <p>A trained Random Forest estimates each employee's attrition probability in real time from their profile.</p>
+      </div>
+      <div class="glass feature">
+        <div class="fi"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <h3>Explainable Factors</h3>
+        <p>See exactly which drivers push risk up or down — overtime, pay, tenure, satisfaction — ranked by impact.</p>
+      </div>
+      <div class="glass feature">
+        <div class="fi"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg></div>
+        <h3>Actionable Guidance</h3>
+        <p>Each risk driver maps to a concrete retention lever, so HR knows what to do — not just what to fear.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="container" id="how">
+    <div class="section-head">
+      <h2>How it works</h2>
+      <p>From employee profile to a defensible retention decision in three steps.</p>
+    </div>
+    <div class="steps">
+      <div class="glass step"><div class="n">STEP 01</div><h4>Describe the employee</h4><p>Set a few high-impact attributes with sliders and toggles — the rest default to typical values.</p></div>
+      <div class="glass step"><div class="n">STEP 02</div><h4>Read the risk</h4><p>A live gauge shows attrition probability and a Low / Medium / High tier, updating as you adjust.</p></div>
+      <div class="glass step"><div class="n">STEP 03</div><h4>Act on the drivers</h4><p>Review the top contributing factors and recommended actions to retain the right people.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    Workforce Insight · Predictive Analytics for Employee Attrition Using ML · Built with Flask &amp; scikit-learn
+  </footer>
+</body>
+</html>
