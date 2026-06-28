@@ -1,13 +1,4 @@
----
-title: Workforce Insight
-emoji: 📉
-colorFrom: indigo
-colorTo: blue
-sdk: docker
-app_port: 7860
-pinned: false
-license: mit
----
+
 
 <div align="center">
   <img src="assets/banner.svg" alt="Workforce Insight — Predictive Analytics for Employee Attrition Using ML" width="780"/>
